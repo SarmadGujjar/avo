@@ -13,6 +13,7 @@ const Client = () => {
             </main>
             <main className='flex md:flex-row flex-col px-2 justify-center gap-10'>
                 <div className='bg-gray-100 p-5'>
+                    HI
                     <p className='text-gray-500 w-full md:w-[250px]'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     <main className='flex gap-3 mt-5'>
                         <Image width={70} height={70} alt='img' className='rounded-full' src={prsn1} />
