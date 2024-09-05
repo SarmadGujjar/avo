@@ -7,33 +7,26 @@ import prsn1 from '@/app/asset/prsn1.webp'
 import prsn2 from '@/app/asset/prsn2.webp'
 import clientbg from '@/app/asset/clientbg.webp'
 import Footer from '../components/Footer';
+import { MdNavigateNext } from "react-icons/md";
+
 
 
 const Page = () => {
     return (
         <div>
-            <div className=''>
-        <main className=''>
-          <Image className='w-full h-[550px]' alt='img' width={1000} height={900} src={bg2} />
-        </main>
-        <main className='absolute justify-between w-full flex px-56 top-0  pt-10'>
-          <span className='flex text-white text-xl font-old'>avo</span>
-          <ul className='flex gap-10 pt-3 text-white'>
-            <li><Link href='/'>Home</Link></li>
-            <li><Link href='about'>About</Link></li>
-            <li><Link href='work'>Work</Link></li>
-            <li><Link href='blog'>Blog</Link></li>
-            <li><Link href='contact'>Contact</Link></li>
-          </ul>
-        </main>
-        <main className='absolute flex flex-col gap-3 text-white top-0 left-0 pt-72 pl-56'>
-          <div className='flex gap-5'>
-            <span>HOME</span>
-            <span>ABOUT US</span>
-          </div>
-          <div className='font-bold text-4xl'>ABOUT US</div>
-        </main>
-      </div>
+            <div>
+                <main className=''>
+                    <Image className='w-full h-[550px]' alt='img' width={1000} height={900} src={bg2} />
+                </main>
+              
+                <main className='absolute flex flex-col gap-3 text-white top-0 left-0 pt-72 pl-56'>
+                    <div className='flex gap-5'>
+                        <span className='flex'>HOME  <span className='text-2xl text-red-600 font-bold flex'>< MdNavigateNext/></span></span>
+                        <span className='flex'>ABOUT US   <span className='text-2xl text-red-600 font-bold flex'>< MdNavigateNext/></span></span>
+                    </div>
+                    <div className='font-bold text-4xl'>ABOUT US</div>
+                </main>
+            </div>
             <About />
 
             {/*  */}
