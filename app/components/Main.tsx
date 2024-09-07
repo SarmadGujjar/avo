@@ -22,9 +22,8 @@ const Main = () => {
                 <AutoCounter />
             </div>
             <div className='absolute bottom-0 items-start flex  mb-10 right-0 bg-red-600 mr-[550px] rounded-full'>
-                <i className='text-3xl p-3'><IoMdPlay /></i>
+                <i className='text-3xl p-4'><IoMdPlay /></i>
             </div>
-            <div>hiiiuyt</div>
         </div>
     )
 }

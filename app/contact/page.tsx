@@ -55,7 +55,7 @@ const page = () => {
             <span className='text-xl bg-pink-700 rounded-full p-2 text-white'><IoLocationSharp /></span>
             <div className='flex gap-1 flex-col'>
               <span>Address:</span>
-              <span className='text-gray-500'>198 West 21th Street, Suite 721 New York NY 10016</span>
+              <span className='text-gray-500'>198 West 21th Street Suite 721 New York NY 10016</span>
             </div>
           </main>
 
@@ -89,7 +89,7 @@ const page = () => {
           <i className='text-white bg-gray-400 rounded-full p-2 text-2xl items-center flex'><MdErrorOutline />
           </i>
           <h2 className='text-2xl font-medium'>Sorry! Something went wrong.</h2>
-          <span className='font-light'>This page didn't load Google Maps correctly. See the JavaScript console for technical details.</span>
+          <span className='font-light'>This page did not load Google Maps correctly. See the JavaScript console for technical details.</span>
         </div>
       </main>
       <Footer />
