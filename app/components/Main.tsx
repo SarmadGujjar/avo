@@ -21,7 +21,7 @@ const Main = () => {
             <div className='text-white absolute md:pt-56 pt-96 top-0 right-0 pr-8 md:pr-72'>
                 <AutoCounter />
             </div>
-            <div className='absolute bottom-0 items-start flex  mb-10 right-0 bg-red-600 mr-20 md:mr-[550px] rounded-full'>
+            <div className='absolute bottom-0 items-start flex mb-3 md:mb-10 right-0 bg-red-600 mr-24 md:mr-[550px] rounded-full'>
                 <i className='text-3xl p-4'><IoMdPlay /></i>
             </div>
         </div>
