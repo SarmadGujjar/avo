@@ -85,7 +85,7 @@ const page = () => {
         </div>
       </main>
       <main>
-        <div className='bg-gray-200 px-16 py-40 mx-72  flex text-center gap-6 justify-center items-center flex-col'>
+        <div className='bg-gray-200  md:px-16 py-40  md:mx-72  flex text-center gap-6 justify-center items-center flex-col'>
           <i className='text-white bg-gray-400 rounded-full p-2 text-2xl items-center flex'><MdErrorOutline />
           </i>
           <h2 className='text-2xl font-medium'>Sorry! Something went wrong.</h2>

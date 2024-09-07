@@ -18,10 +18,10 @@ const Main = () => {
                 <p className='text-gray-400 w-full md:w-96 my-5 md:px-0 px-2'>A small river name Duden flows by their place and supplies it with the necessary regelialia</p>
                 <button className='bg-red-600 rounded-md px-4 md:mx-0 mx-2 py-3 text-white'>Start Projects</button>
             </main>
-            <div className='text-white absolute pt-56 top-0 right-0 pr-8 md:pr-72'>
+            <div className='text-white absolute md:pt-56 pt-96 top-0 right-0 pr-8 md:pr-72'>
                 <AutoCounter />
             </div>
-            <div className='absolute bottom-0 items-start flex  mb-10 right-0 bg-red-600 mr-[550px] rounded-full'>
+            <div className='absolute bottom-0 items-start flex  mb-10 right-0 bg-red-600 mr-20 md:mr-[550px] rounded-full'>
                 <i className='text-3xl p-4'><IoMdPlay /></i>
             </div>
         </div>
