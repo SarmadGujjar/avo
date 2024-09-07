@@ -13,7 +13,7 @@ import { MdNavigateNext } from "react-icons/md";
 
 const Page = () => {
     return (
-        <div>
+        <div className='bg-white'>
             <div>
                 <main className=''>
                     <Image className='w-full h-[550px]' alt='img' width={1000} height={900} src={bg2} />

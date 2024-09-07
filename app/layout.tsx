@@ -35,7 +35,7 @@ export default function RootLayout({
             {open ? (
               <div>
                 <button onClick={() => setOpen(false)} className='text-xl flex'>MEnu</button>
-                <ul className='flex bg-red-500 flex-col left-0 top-0 p-4 w-full gap-4 pt-2 text-white'>
+                <ul className='flex bg-red-500 flex-col left-0 h-[100%] top-0 p-4 w-full gap-4 pt-2 text-white'>
                   <li className={`hover:text-red-600 ${path === '/' && 'text-red-600'}`}><Link href='/'>Home</Link></li>
                   <li className={`hover:text-red-600 ${path === 'about' && 'text-red-600'}`}><Link href='about'>About</Link></li>
                   <li className={`hover:text-red-600 ${path === 'about' && 'text-red-600'}`}><Link href='work'>Work</Link></li>
