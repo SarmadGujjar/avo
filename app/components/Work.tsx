@@ -19,7 +19,7 @@ const Work = () => {
                     <h1 className='text-4xl font-bold'>OUR WORKS</h1>
                 </main>
                 <main className='flex justify-center items-center gap-10'>
-                    <Image className='w-full md:w-[370px]' alt='img' height={750} width={400} src={work1} />
+                    <Image alt='img' height={750} width={400} src={work1} />
                     <div className='gap-5 flex flex-col'>
                         <span>Web Design</span>
                         <h2 className='text-4xl font-semibold'><a>Cassette tape</a></h2>
@@ -53,11 +53,11 @@ const Work = () => {
                         </main>
                         <a><button className='bg-gray-100 border-2 border-black px-2 py-1'>V i e w    P o r t f o l i o</button></a>
                     </div>
-                    <Image className='w-full md:w-[370px]' alt='img' height={600} width={400} src={work2} />
+                    <Image alt='img' height={600} width={400} src={work2} />
                 </main>
 
                 <main className='flex justify-center items-center gap-10'>
-                    <Image className='w-full md:w-[370px]' alt='img' height={750} width={400} src={work3} />
+                    <Image alt='img' height={750} width={400} src={work3} />
                     <div className='gap-5 flex flex-col'>
                         <span>UI/Ux Design</span>
                         <h2 className='text-4xl font-semibold'><a>Avo Portfolio Agency</a></h2>
@@ -91,11 +91,11 @@ const Work = () => {
                         </main>
                         <a><button className='bg-gray-100 border-2 border-black px-2 py-1'>V i e w    P o r t f o l i o</button></a>
                     </div>
-                    <Image className='w-full md:w-[370px]'  alt='img' height={750} width={400} src={work4} />
+                    <Image alt='img' height={750} width={400} src={work4} />
                 </main>
 
                 <main className='flex justify-center items-center gap-10'>
-                    <Image className='w-full md:w-[370px]' alt='img' height={750} width={400} src={work5} />
+                    <Image alt='img' height={750} width={400} src={work5} />
                     <div className='gap-5 flex flex-col'>
                         <span>Illustration</span>
                         <h2 className='text-4xl font-semibold'><a>Keyboard</a></h2>
@@ -129,7 +129,7 @@ const Work = () => {
                         </main>
                         <a><button className='bg-gray-100 border-2 border-black px-2 py-1'>V i e w    P o r t f o l i o</button></a>
                     </div>
-                    <Image className='w-full md:w-[370px]' alt='img' height={750} width={400} src={work6} />
+                    <Image alt='img' height={750} width={400} src={work6} />
                 </main>
 
             </div>
@@ -142,11 +142,11 @@ const Work = () => {
                     <h1 className='text-4xl font-bold'>OUR WORKS</h1>
                 </main>
                 <main className='flex flex-col px-2 justify-center items-center gap-7'>
-                    <Image alt='img' height={750} width={400} src={work1} />
+                    <Image className='w-full' alt='img' height={750} width={400} src={work1} />
                     <div className='gap-5 flex  flex-col px-2'>
                         <span>Web Design</span>
                         <h2 className='text-4xl font-semibold'><a>Cassette tape</a></h2>
-                        <p className='text-gray-500 w-full md:w-[500px]'>Far far away, behind the word mountains, far from the
+                        <p className='text-gray-500 w-full'>Far far away, behind the word mountains, far from the
                             countries Vokalia and Consonantia, there live the blind texts.
                         </p>
                         <main className='flex items-center gap-2'>
@@ -161,7 +161,7 @@ const Work = () => {
                 </main>
 
                 <main className='flex flex-col px-2 justify-center items-center gap-7'>
-                    <Image alt='img' height={600} width={400} src={work2} />
+                    <Image className='w-full' alt='img' height={600} width={400} src={work2} />
                     <div className='gap-5  flex flex-col px-2'>
                         <span>Application</span>
                         <h2 className='text-4xl font-semibold'><a>Miniwall Clock</a></h2>
@@ -180,7 +180,7 @@ const Work = () => {
                 </main>
 
                 <main className='flex flex-col px-2 justify-center items-center gap-7'>
-                    <Image alt='img' height={750} width={400} src={work3} />
+                    <Image className='w-full' alt='img' height={750} width={400} src={work3} />
                     <div className='gap-5 flex flex-col px-2'>
                         <span>UI/Ux Design</span>
                         <h2 className='text-4xl font-semibold'><a>Avo Portfolio Agency</a></h2>
@@ -199,7 +199,7 @@ const Work = () => {
                 </main>
 
                 <main className='flex flex-col px-2 justify-center items-center gap-7'>
-                    <Image alt='img' height={750} width={400} src={work4} />
+                    <Image className='w-full' alt='img' height={750} width={400} src={work4} />
                     <div className='gap-5 flex flex-col px-2'>
                         <span>Web Development</span>
                         <h2 className='text-4xl font-semibold'><a>Hand Writing</a></h2>
@@ -218,7 +218,7 @@ const Work = () => {
                 </main>
 
                 <main className='flex flex-col px-2 justify-center items-center gap-7'>
-                    <Image alt='img' height={750} width={400} src={work5} />
+                    <Image className='w-full' alt='img' height={750} width={400} src={work5} />
                     <div className='gap-5 flex flex-col px-2'>
                         <span>Illustration</span>
                         <h2 className='text-4xl font-semibold'><a>Keyboard</a></h2>
@@ -237,7 +237,7 @@ const Work = () => {
                 </main>
 
                 <main className='flex flex-col px-2 justify-center items-center gap-7'>
-                    <Image alt='img' height={750} width={400} src={work6} />
+                    <Image className='w-full' alt='img' height={750} width={400} src={work6} />
                     <div className='gap-5 flex flex-col px-2'>
                         <span>Web Development</span>
                         <h2 className='text-4xl font-semibold'><a>Spiral</a></h2>
