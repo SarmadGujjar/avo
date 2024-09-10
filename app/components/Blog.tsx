@@ -13,28 +13,28 @@ const Blog = () => {
         <main className='flex md:flex-row flex-col px-2 items-center justify-center gap-14 md:gap-9'>
             <div className='flex flex-col gap-5 px-3'>
                 <a className='text-xl font-medium w-full md:w-56' href='#'>Amplify your blockchain team</a>
-                <Image className='h-[285px] w-full md:w-[230px]' alt='img' width={220} height={200} src={work1} />
+                <Image className='h-[285px] w-full md:w-[230px]' alt='img' width={420} height={200} src={work1} />
                 <span className=''>June 21, 2023</span>
                 <p className='text-gray-500 w-full md:w-56'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
             </div>
 
             <div className='flex flex-col gap-5 px-3'>
                 <a className='text-xl font-medium w-full md:w-56' href='#'>Amplify your blockchain team</a>
-                <Image className='w-full md:w-[230px]' alt='img' width={220} height={200} src={work4} />
+                <Image className='w-full md:w-[230px]' alt='img' width={420} height={200} src={work4} />
                 <span className=''>June 21, 2023</span>
                 <p className='text-gray-500 w-full md:w-56'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
             </div>
 
             <div className='flex flex-col gap-5 px-3'>
                 <a className='text-xl font-medium w-full md:w-56' href='#'>Amplify your blockchain team</a>
-                <Image className='w-full md:w-[230px]' alt='img' width={220} height={200} src={work3} />
+                <Image className='w-full md:w-[230px]' alt='img' width={420} height={200} src={work3} />
                 <span className=''>June 21, 2023</span>
                 <p className='text-gray-500 w-full md:w-56'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
             </div>
 
             <div className='flex flex-col gap-5 px-3'>
                 <a className='text-xl font-medium w-full md:w-56' href='#'>Amplify your blockchain team</a>
-                <Image className='w-full md:w-[230px]' alt='img' width={220} height={200} src={work4} />
+                <Image className='w-full md:w-[230px]' alt='img' width={420} height={200} src={work4} />
                 <span className=''>June 21, 2023</span>
                 <p className='text-gray-500 w-full md:w-56'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
             </div>

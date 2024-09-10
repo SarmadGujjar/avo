@@ -48,7 +48,7 @@ const About = () => {
             it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
           </p>
         </div>
-        <div><Image className='md:h-[320px] px-2 w-full md:w-[280px]' height={500} width={500} alt='img' src={about} /></div>
+        <div><Image className='md:h-[320px] px-2 w-full md:w-[280px]' height={500} width={700} alt='img' src={about} /></div>
         <div className='flex flex-col gap-5 items-start md:px-0 px-3'>
           <p className='text-gray-500 w-full md:w-[300px]'>
             Far far away, behind the word mountains, far from the countries
