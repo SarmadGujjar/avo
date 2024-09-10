@@ -26,7 +26,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-white">
         <main>
-          <main className='fixed bg-gray-200 md:hidden shadow-2xl pb-3 justify-between w-full flex px-10 top-0  pt-5'>
+          <main className='fixed bg-gray-200 md:hidden shadow-2xl pb-3 justify-between w-full flex md:px-10 px-2 top-0  pt-5'>
             <span className='flex text-black text-xl font-old'>avo</span>
             <div className='flex pt-1 text-2xl text-black'>
               <button onClick={() => setOpen(true)} className='text-xl flex'>MENU</button>

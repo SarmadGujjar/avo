@@ -16,7 +16,7 @@ const Footer = () => {
                 <div className="md:gap-10 gap-3 flex flex-col">
                     <h2 className='text-xl font-semibold text-white'>avo</h2>
                     <span className="w-40 flex text-gray-400">Far far away, behind the word mountains, far from the countries.</span>
-                    <span className="flex gap-6 text-gray-400 text-2xl"> 
+                    <span className="flex gap-6 text-gray-400 text-2xl">
                         <AiFillTwitterCircle />
                         <FaFacebook />
                         <FaSquareInstagram /></span>
